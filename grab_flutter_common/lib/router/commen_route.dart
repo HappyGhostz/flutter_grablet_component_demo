@@ -56,7 +56,9 @@ class CommonGrabLetRoot {
   }
 
   CommonGrabLetRoot setPageParams(Map<String, dynamic> params) {
-    _params = params;
+    if (params != null) {
+      _params = params;
+    }
     return instance;
   }
 
