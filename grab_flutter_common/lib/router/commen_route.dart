@@ -2,6 +2,9 @@ import 'package:fish_redux/fish_redux.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:grab_flutter_common/grab_let.dart';
 
+///They are two different implementations [CommonRouteRoot]
+/// [CommonGrabLetRoot]
+
 ///ARouter (Alibaba's open source Android componentized communication) principle realizes communication
 ///Store the leaked page in the map memory, and each component communicates according to the key
 class CommonRouteRoot {
